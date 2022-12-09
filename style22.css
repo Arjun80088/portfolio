@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background: #5434af;
+    background: #A770EF;
     height: 80px;
     width: 100%;
 }
@@ -45,7 +45,7 @@ nav ul li a {
 
 a.active,
 a:hover {
-    background: #1d075f;
+    background-color: #1d075f;
     transition: .5s;
 }
 
@@ -142,4 +142,8 @@ a:hover {
     img {
         width: 100%;
     }
+}
+
+.btn:hover {
+    box-shadow: 3px 3px 3px blue, 5px 5px 3px black;
 }
